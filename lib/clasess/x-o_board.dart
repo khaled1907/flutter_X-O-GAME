@@ -49,7 +49,7 @@ class _GameBoardState extends State<GameBoard> {
                       ),
                     ),
                     Text(
-                      "$scorePlayer1",
+                      "$scorePlayer1+ (X)",
                       style: const TextStyle(
                         color: Colors.black,
                         fontSize: 20,
@@ -70,7 +70,7 @@ class _GameBoardState extends State<GameBoard> {
                       ),
                     ),
                     Text(
-                      "$scorePlayer2",
+                      "$scorePlayer2+ (O)",
                       style: const TextStyle(
                         color: Colors.black,
                         fontSize: 20,
