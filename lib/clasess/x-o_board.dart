@@ -41,7 +41,7 @@ class _GameBoardState extends State<GameBoard> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      arguments.player1,
+                      arguments.player1+" (X)",
                       style: const TextStyle(
                         color: Colors.black,
                         fontSize: 20,
@@ -49,7 +49,7 @@ class _GameBoardState extends State<GameBoard> {
                       ),
                     ),
                     Text(
-                      "$scorePlayer1+ (X)",
+                      "$scorePlayer1",
                       style: const TextStyle(
                         color: Colors.black,
                         fontSize: 20,
@@ -62,7 +62,7 @@ class _GameBoardState extends State<GameBoard> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      arguments.player2,
+                      arguments.player2 +" (O)",
                       style: const TextStyle(
                         color: Colors.black,
                         fontSize: 20,
@@ -70,7 +70,7 @@ class _GameBoardState extends State<GameBoard> {
                       ),
                     ),
                     Text(
-                      "$scorePlayer2+ (O)",
+                      "$scorePlayer2",
                       style: const TextStyle(
                         color: Colors.black,
                         fontSize: 20,
